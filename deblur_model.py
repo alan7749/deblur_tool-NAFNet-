@@ -40,7 +40,7 @@ if not os.path.exists("./experiments/pretrained_models/NAFNet-REDS-width64.pth")
 
 # deblur_upload_folder = 'D:/YOLOv7_crop_tool/yolov7/runs/detect/exp'
 deblur_upload_folder = 'D:/yolo_crop/yolov7_crop_tool/runs/detect/exp'
-deblur_result_folder = 'D:/deblur_model/NAFNet/upload/output'
+deblur_result_folder = 'D:/deblur_model/deblur_tool-NAFNet-/upload/output'
 
 def imread(img_path):
   img = cv2.imread(img_path)
